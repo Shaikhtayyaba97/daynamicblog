@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-6 m-4 bg-purple-50">
+    <div className="flex flex-wrap justify-center gap-6 m-4 bg-purple-600">
       {Blogdata.map((data) => {
         // State for comments for each product
         const [comments, setComments] = useState<string[]>([]);

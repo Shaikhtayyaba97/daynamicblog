@@ -3,15 +3,24 @@ import Link from "next/link";
 
 export default function Header() {
   return (
- <div className="bg-purple-200 text-black flex justify-between ">
-            <div className="text-4xl font-bold "> My Beauty Blog </div>
-            <div className=" m-2 flex gap-3 text-2xl">
-                <Link href='/'>Home</Link>
-                <Link href='/about'>About</Link>
-                <Link href='/blog'>Blog</Link>
-                <Link href='/contact'>Contact</Link></div>
-            <div className="m-2"><FcGlobe size={50} />
-            </div>
-        </div>
-    )
+    <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white flex items-center justify-between px-4 py-3">
+      <div className="text-4xl font-extrabold tracking-wide">My Beauty Blog</div>
+      <div className="flex gap-6 text-lg font-medium">
+        <Link href="/" className="hover:underline hover:scale-105 transition duration-300">
+          Home
+        </Link>
+        <Link href="/about" className="hover:underline hover:scale-105 transition duration-300">
+          About
+        </Link>
+        <Link href="/blog" className="hover:underline hover:scale-105 transition duration-300">
+          Blog
+        </Link>
+      </div>
+
+      {/* Globe Icon */}
+      <div className="flex items-center hover:rotate-360 transition-transform duration-500">
+        <FcGlobe size={50} />
+      </div>
+    </div>
+  );
 }
