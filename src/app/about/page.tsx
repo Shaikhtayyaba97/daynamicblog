@@ -38,7 +38,7 @@ export default function About() {
         perfumes, body sprays, bracelets, rings, and body essentials that cater to every taste and preference. 
         Our kids section is filled with exciting options, from lotions and toys to all kinds of kid essentials, 
         ensuring your little ones have everything they need. At our shop, we aim to provide high-quality items 
-        for everyone, bringing convenience and variety together under one roof.
+        for everyone, bringing convenience and variety together under one roof..
       </div>
 
       {/* Image Carousel */}
