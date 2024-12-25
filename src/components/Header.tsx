@@ -1,4 +1,4 @@
-import { FcGlobe } from "react-icons/fc";
+import { FcGlobe } from 'react-icons/fc';
 import Link from "next/link";
 
 export default function Header() {
